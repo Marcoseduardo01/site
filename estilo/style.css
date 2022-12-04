@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & family= Kaushan+Script & family= Poppins:wght@300;400;500;600;700 & family= Work+Sans:ital,wght@0,400;0,500;1,400 & display=swap');
+
+:root {
+    --fonte-padrao: arial, verdana, helvetica, sans-serif;
+    --fonte-android: 'android', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+    position: relative;
+    font-family: var(--fonte-android);
+    background-color: darkgray;
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    background-color: bisque;
+    height: 200px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+header p {
+    text-align: center;
+    text-align: justify;
+}
+
+header menu {
+
+}
+
+main {
+    background-color: aqua;
+    height: 100vh;
+    width: 450px;
+    position: relative;
+    margin: auto;
+}
+
+main section#links {
+    margin: 10px 0px;
+}
+
+main section#links a {
+    background-color: bisque;
+    padding: px 10px;
+    margin: 0px 10px;
+}
+
+footer {
+    background-color: blueviolet;
+    text-align: center;
+    padding: 20px;
+}
